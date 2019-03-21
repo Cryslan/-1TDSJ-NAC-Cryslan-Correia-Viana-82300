@@ -1,0 +1,46 @@
+*{
+    font-style: Arial;
+}
+h1{
+    text-align: center;
+    color: darkgrey;
+}
+
+.campo{
+    background-color: #ddd;
+    border-color: #333;
+    display: flex;
+}
+
+#cadastro{
+    position: absolute;
+    margin:auto;
+    left:25%;
+    width: 50%;
+    height: 50%;
+}
+
+#nome{
+    
+    width:90%;
+}
+#endereco{
+    width:90%;
+}
+#rg{
+    width:45%;
+}
+
+#cpf{
+    width:45%;
+}
+#genero{
+    width: 45%;
+    background-color: #ddd;
+    border-color: #333
+}
+#data_nasc{
+    width: 45%;
+    background-color: #ddd;
+    border-color: #333
+}

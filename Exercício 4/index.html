@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício4</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body>
+    <form method="post" action="">
+        <div id="titulo">
+            <h1>Ficha Cadastral</h1>
+        </div>
+        <div id="cadastro">
+            <fieldset>
+                <legend>Dados Pessoais:</legend>
+                <p>
+                    <label for="nome">Nome:
+                        <input type="text" name="nome" id="nome" class="campo">
+                    </label>
+                </p>
+                <p>
+                    <label for="rg">RG:
+                        <br>
+                        <input type="text" name="rg" id="rg" class="campo">
+                    </label>
+
+                    <label for="cpf">CPF:
+                        <br>
+                        <input type="text" name="cpf" id="cpf" class="campo">
+                    </label>
+                </p>
+                <p>
+                    <label for="endereco">Endereço:
+                        <input type="text" name="endereco" id="endereco" class="campo">
+                    </label>
+                </p>
+                <p>
+                    <label for="genero">Gênero
+                        <br>
+                        <select name="genero" id="genero">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Outro">Outro</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label for="data_nasc">Data de Nascimento:
+                        <br>
+                        <input type="text" name="data_nasc" id="data_nasc">
+                    </label>
+                </p>
+                <p>
+                    <label> Situação Civil
+                        <br>
+                        <input type="radio" name="situacao" checked="checked"/>Solteiro(a)
+                        <input type="radio" name="situacao"/>Casado(a)
+                        <input type="radio" name="situacao"/>Viúvo(a)
+                    </label>
+                </p>
+                <label>
+                    <button id="cadastrar">Cadastrar</button>
+                </label>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
